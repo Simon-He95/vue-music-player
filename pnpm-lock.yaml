@@ -79,8 +79,8 @@ importers:
         specifier: ^4.5.4
         version: 4.5.4(@types/node@18.19.115)(typescript@5.8.3)(vite@7.0.0(@types/node@18.19.115)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))
       vite-plugin-pages:
-        specifier: ^0.32.5
-        version: 0.32.5(@vue/compiler-sfc@3.5.17)(vite@7.0.0(@types/node@18.19.115)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))
+        specifier: ^0.33.0
+        version: 0.33.1(@vue/compiler-sfc@3.5.17)(vite@7.0.0(@types/node@18.19.115)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))
       vitest:
         specifier: ^3.2.4
         version: 3.2.4(@types/debug@4.1.12)(@types/node@18.19.115)(jiti@2.4.2)(jsdom@19.0.0)(lightningcss@1.30.1)(yaml@2.8.0)
@@ -2815,13 +2815,13 @@ packages:
       vite:
         optional: true
 
-  vite-plugin-pages@0.32.5:
-    resolution: {integrity: sha512-GY2JAt+4vZ4BqTtw+4CSUxPgYiqamrMRIzYk2AtJvQHeBoMlctsQW+tgCpKriUKINiKfi6NegbP07r1XrdxTWA==}
+  vite-plugin-pages@0.33.1:
+    resolution: {integrity: sha512-ITLgZQCphuuovKqJg4cD7Mqo3SlaUO95O+Vfu1Kz9lF8fkAwNRK3XM25rGqaWXVja5OYinsskNH8Q8Eqvjk71Q==}
     peerDependencies:
       '@solidjs/router': '*'
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
       react-router: '*'
-      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0 || ^6.0.0
+      vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
       vue-router: '*'
     peerDependenciesMeta:
       '@solidjs/router':
@@ -3025,11 +3025,6 @@ packages:
   yaml-eslint-parser@1.3.0:
     resolution: {integrity: sha512-E/+VitOorXSLiAqtTd7Yqax0/pAS3xaYMP+AUUJGOK1OZG3rhcj9fcJOM5HJ2VrP1FrStVCWr1muTfQCdj4tAA==}
     engines: {node: ^14.17.0 || >=16.0.0}
-
-  yaml@2.7.1:
-    resolution: {integrity: sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==}
-    engines: {node: '>= 14'}
-    hasBin: true
 
   yaml@2.8.0:
     resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
@@ -3696,7 +3691,7 @@ snapshots:
       '@typescript-eslint/types': 8.35.1
       '@typescript-eslint/typescript-estree': 8.35.1(typescript@5.8.3)
       '@typescript-eslint/visitor-keys': 8.35.1
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.30.1(jiti@2.4.2)
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -3706,7 +3701,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.35.1(typescript@5.8.3)
       '@typescript-eslint/types': 8.35.1
-      debug: 4.4.0
+      debug: 4.4.1
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
@@ -3729,7 +3724,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 8.35.1(typescript@5.8.3)
       '@typescript-eslint/utils': 8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.30.1(jiti@2.4.2)
       ts-api-utils: 2.1.0(typescript@5.8.3)
       typescript: 5.8.3
@@ -3744,7 +3739,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.30.1
       '@typescript-eslint/visitor-keys': 8.30.1
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -3760,7 +3755,7 @@ snapshots:
       '@typescript-eslint/tsconfig-utils': 8.35.1(typescript@5.8.3)
       '@typescript-eslint/types': 8.35.1
       '@typescript-eslint/visitor-keys': 8.35.1
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -4039,7 +4034,7 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -4557,7 +4552,7 @@ snapshots:
 
   eslint-plugin-toml@0.12.0(eslint@9.30.1(jiti@2.4.2)):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.30.1(jiti@2.4.2)
       eslint-compat-utils: 0.6.5(eslint@9.30.1(jiti@2.4.2))
       lodash: 4.17.21
@@ -4605,7 +4600,7 @@ snapshots:
 
   eslint-plugin-yml@1.18.0(eslint@9.30.1(jiti@2.4.2)):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       escape-string-regexp: 4.0.0
       eslint: 9.30.1(jiti@2.4.2)
       eslint-compat-utils: 0.6.5(eslint@9.30.1(jiti@2.4.2))
@@ -5425,7 +5420,7 @@ snapshots:
   micromark@4.0.2:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
@@ -5608,7 +5603,7 @@ snapshots:
 
   pnpm-workspace-yaml@0.3.1:
     dependencies:
-      yaml: 2.7.1
+      yaml: 2.8.0
 
   postcss-selector-parser@6.1.2:
     dependencies:
@@ -6031,18 +6026,19 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-pages@0.32.5(@vue/compiler-sfc@3.5.17)(vite@7.0.0(@types/node@18.19.115)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3))):
+  vite-plugin-pages@0.33.1(@vue/compiler-sfc@3.5.17)(vite@7.0.0(@types/node@18.19.115)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3))):
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       dequal: 2.0.3
       extract-comments: 1.1.0
-      fast-glob: 3.3.3
       json5: 2.2.3
       local-pkg: 1.1.1
+      micromatch: 4.0.8
       picocolors: 1.1.1
+      tinyglobby: 0.2.14
       vite: 7.0.0(@types/node@18.19.115)(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.8.0)
-      yaml: 2.7.1
+      yaml: 2.8.0
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.17
       vue-router: 4.5.1(vue@3.5.17(typescript@5.8.3))
@@ -6118,7 +6114,7 @@ snapshots:
 
   vue-eslint-parser@10.2.0(eslint@9.30.1(jiti@2.4.2)):
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       eslint: 9.30.1(jiti@2.4.2)
       eslint-scope: 8.3.0
       eslint-visitor-keys: 4.2.0
@@ -6213,9 +6209,7 @@ snapshots:
   yaml-eslint-parser@1.3.0:
     dependencies:
       eslint-visitor-keys: 3.4.3
-      yaml: 2.7.1
-
-  yaml@2.7.1: {}
+      yaml: 2.8.0
 
   yaml@2.8.0: {}
 

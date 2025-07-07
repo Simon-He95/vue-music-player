@@ -4,8 +4,8 @@
     "target": "es2016",
     "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
-    "module": "NodeNext",
-    "moduleResolution": "nodenext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "paths": {
       "~/*": ["src/*"]
     },

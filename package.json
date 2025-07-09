@@ -29,7 +29,7 @@
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
     "test": "vitest",
-    "release": "bumpp --commit --push --tag && npm publish"
+    "release": "pnpm build:npm && bumpp --commit --push --tag && npm publish"
   },
   "dependencies": {
     "@egoist/tailwindcss-icons": "^1.9.0",

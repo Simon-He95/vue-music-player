@@ -8,7 +8,6 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     MusicPlayer: typeof import('./src/components/MusicPlayer.vue')['default']
-    MusicPlayerModern: typeof import('./src/components/MusicPlayerModern.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

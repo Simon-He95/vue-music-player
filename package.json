@@ -42,7 +42,7 @@
     "@simon_he/git-fork-vue": "^0.0.18",
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "^4.1.11",
-    "@types/node": "^18.19.117",
+    "@types/node": "^22.0.0",
     "@vitejs/plugin-vue": "^5.2.4",
     "@vue/test-utils": "^2.4.6",
     "autoprefixer": "^10.4.21",
